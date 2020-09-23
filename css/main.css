@@ -1,0 +1,22 @@
+
+.bg::before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/tap_water_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card-header {
+    background-color: #39B9FF;
+    padding-top: 0;
+}
+
+.btn-primary {
+    background-color: #1A5AD9;
+}
