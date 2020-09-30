@@ -17,6 +17,23 @@
     padding-top: 0;
 }
 
+
 .btn-primary {
-    background-color: #1A5AD9;
+    background-color: #FF525D;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #39B9FF;
+}
+
+.main-nav {
+    background-color: #39B9FF;
+}
+
+.text-primary {
+    color:#FF525D !important;
+}
+.user_name_card {
+    font-size: 1.5em;
 }
