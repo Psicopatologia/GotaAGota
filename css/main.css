@@ -1,5 +1,5 @@
 
-.bg::before {
+.bg-login::before {
     content: "";
     position: absolute;
     background-image: url("../img/tap_water_bg.jpg");
