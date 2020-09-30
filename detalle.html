@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark  main-nav">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo_blanco.png" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+            Gota a Gota
+        </a>
+    </nav>
+    <main class="mt-5">
+        <div class="container detalle">
+            <div class="row">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/cocina.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary h3">Cocina</h5>
+                                <hr>
+                                <div class="progress mt-3 mb-3">
+                                    <div class="progress-bar" style="width: 30%" role="progressbar" aria-valuenow="30"
+                                        aria-valuemin="30" aria-valuemax="100">
+                                        30m³
+                                    </div>
+                                </div>
+                                <p class="card-text">La mayor parte de tu consumo proviente de la griferia lavaplatos y
+                                    refrigerador que tienes en tu cocina puedes limitar el consumo de algunos
+                                    dispositivos como el refrigerador o el lavaplatos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-8">
+
+                    <canvas class="w-100 chartjs-render-monitor" id="myChart" width="522" height="220"
+                        style="display: block; width: 522px; height: 220px;"></canvas>
+
+                </div>
+                <div class="col">
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/lavaplatos.jpg" class="card-img" alt="lavaplatos">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lavaplatos</h5>
+                                    <div class="progress mt-3 mb-3">
+                                        <div class="progress-bar" style="width: 50%" role="progressbar"
+                                            aria-valuenow="50" aria-valuemin="50" aria-valuemax="100">
+                                            15m³
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3" >
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="img/lavaplatos.jpg" class="card-img" alt="lavaplatos">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lavaplatos</h5>
+                                    <div class="progress mt-3 mb-3">
+                                        <div class="progress-bar" style="width: 50%" role="progressbar"
+                                            aria-valuenow="50" aria-valuemin="50" aria-valuemax="100">
+                                            15m³
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="/docs/4.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+
+</html>

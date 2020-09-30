@@ -12,11 +12,14 @@
     height: 100%;
 }
 
-.card-header {
+.bg-login .card-header {
     background-color: #39B9FF;
     padding-top: 0;
 }
 
+.detalle .card-header {
+    background-color: #fff;
+}
 
 .btn-primary {
     background-color: #FF525D;
